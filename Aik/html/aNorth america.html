@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>North</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>North American Countries</h1>
+            
+            <div class="box">
+                <img src="nigeria.png.jpg">
+                <h3>United States Of America</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="national-flag-egypt-background-editors-designers-national-holiday_659987-494.jpg">
+                <h3>Canada</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="south africa.jpg">
+                <h3>Mexico</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="ghana-flag-2.jpg">
+                <h3>Jamaica</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="morocco-flag.webp">
+                <h3>Costa Rica</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            
+            
+           
+        </div>
+        <button><a href="back">Back</a></button>
+
+        <style>
+            body{
+                background-image: url(lanscape73.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            button{
+                
+                border-radius: 10px;
+                border: none;
+                width: 100px;
+                height: 50px;
+                margin-left: 650px;
+                
+            }
+            button a{
+                color: black;
+                text-decoration:dotted;
+                font-size: large;
+            }
+            
+            .container .box button{
+                margin: 0 90px;
+                width: 55px;
+                height: 25px;
+                left: 5px;
+                border-radius: 8px;
+                border: none;
+                cursor: pointer;
+            }
+            .container .box button a{
+                color: black;
+                text-decoration: none;
+                font-size: medium;
+            } 
+            h1{
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                font-family:Georgia, 'Times New Roman', Times, serif
+            } 
+            
+            .container{
+                width: 100%;
+                padding:   -10px;
+                margin: 50px auto;
+                display:inline-table;
+                flex-direction: row;
+                justify-content: center;
+                
+                
+            }
+            h3{
+                color: rgb(253, 254, 255);
+                font-size: larger;
+            }
+            .box{
+                width: 220px;
+                margin: 60px 15px;
+                box-shadow: 0 0 20px 2px rgba(0, 0, 0, .3);
+                transition: 1s;
+                display: inline-table;
+                justify-content: center;
+                align-items: center;
+                
+                
+            }
+            .box img{
+                display: block;
+                width: 100%;
+                border-radius: 2px;
+                
+            }
+            .box:hover{
+                transform:scale(1.2);
+                z-index: 2;
+            }
+        </style>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>United Kingdom </title>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="box">
+                <img src="lanscape72.jpg">
+                <h3>England</h3>
+                <button><a href="Africa.html">View</a></button>
+            </div>
+            <div class="box">
+                <img src="lanscape75.jpg">
+                <h3>Scotland</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="landscape69.jpg">
+                <h3>Wales</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            <div class="box">
+                <img src="landscape68.jpg">
+                <h3>Northern Ireland</h3>
+                <button><a href="view">View</a></button>
+            </div>
+            
+        </div>
+        <div class="back">
+              <button><a href="aEurope.html">Back</a></button>
+        </div>
+        <style>
+            body{
+                background-image: url(landscape60.jpg);
+                background-size: cover;
+            }
+            .back button{
+                height: 40px;
+                width: 70px;
+                color: white;
+                border-radius: 8px;
+                border: none;
+                margin-top: -60px;
+                margin-left: 650px;
+            }
+            .back button a{
+                color: black;
+                text-decoration: none;
+            }
+            .container .box button{
+                margin: 0 90px;
+                width: 55px;
+                height: 25px;
+                left: 5px;
+                border-radius: 8px;
+                border: none;
+                cursor: pointer;
+            }
+            .container .box button a{
+                color: black;
+                text-decoration: none;
+            }  
+            
+            .container{
+                width: 100%;
+                padding:   -10px;
+                margin: 100px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+                
+            }
+            h3{
+                color: white;
+            }
+            .box{
+                width: 210px;
+                margin:  50px 10px;
+                box-shadow: 0 0 20px 2px rgba(0, 0, 0, .3);
+                transition: 1s;
+                
+            }
+            .box img{
+                display: block;
+                width: 100%;
+                border-radius: 2px;
+                
+            }
+            .box:hover{
+                transform:scale(1.5);
+                z-index: 2;
+            }
+        </style>
+    </body>
+</html>
